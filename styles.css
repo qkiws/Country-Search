@@ -40,16 +40,16 @@ button {
 .page-shell {
   width: min(100% - 48px, 1120px);
   margin: 0 auto;
-  padding: 98px 0 96px;
+  padding: 64px 0 96px;
 }
 
 .hero {
   max-width: 780px;
-  margin-bottom: 54px;
+  margin-bottom: 32px;
 }
 
 .eyebrow {
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   color: var(--green);
   font-size: 11px;
   font-weight: 700;
@@ -65,7 +65,7 @@ h2 {
 h1 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(42px, 7vw, 76px);
+  font-size: clamp(38px, 5.4vw, 62px);
   font-weight: 600;
   line-height: 1.08;
 }
@@ -76,9 +76,9 @@ h1 {
 
 .hero-copy {
   max-width: 490px;
-  margin: 23px 0 0;
+  margin: 14px 0 0;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
@@ -384,7 +384,7 @@ h1 {
   }
 
   .hero {
-    margin-bottom: 36px;
+    margin-bottom: 24px;
   }
 
   .search-panel {
